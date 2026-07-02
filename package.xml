@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>open_3d_scanner</name>
+  <version>0.1.0</version>
+  <description>Open and modular handheld system for 3D environment reconstruction with 3D Lidar and Camera.</description>
+  <maintainer email="martin.bayon@unileon.es">Martín Bayón</maintainer>
+  <license>Apache-2.0</license>
+  
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>message_filters</depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2_eigen</depend>
+  
+  <depend>rosbag2_cpp</depend>
+  <depend>rosbag2_storage</depend>
+  
+  <build_depend>nlohmann_json</build_depend>
+  <exec_depend>nlohmann_json</exec_depend>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

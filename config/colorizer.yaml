@@ -1,0 +1,21 @@
+colorize_pointcloud_node:
+  ros__parameters:
+    pointcloud_topic: "/rslidar_points"
+    image_topic: "/camera/camera/color/image_raw"
+    camera_info_topic: "/camera/camera/color/camera_info"
+    output_topic: "/colorized_points"
+
+    lidar_frame: "rslidar"
+    camera_frame: "camera_color_optical_frame"
+
+    calib_json_path: "config/calib.json"
+    calib_json_key: "T_lidar_camera"
+
+    calib_is_lidar_to_camera: false
+
+    publish_uncolored_points: false
+    use_distortion: false
+    min_range: 0.2
+    max_range: 20.0
+
+    approximate_sync_queue_size: 10
