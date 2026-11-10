@@ -133,10 +133,7 @@ If you use this work, please consider citing our paper:
 > Benítez Andrades, J.A. Benavides, C., Prieto-Fernández, N. 2026.
 > Low-cost open-source system for 3D environment reconstruction.
 > Jornadas de Automática, 47.
-
-- DOI: `Pending`
-
-### Citation
+> https://doi.org/10.17979/ja-cea.2026.47.13822
 
 ```bibtex
 @inproceedings{bayon2026jjaa,
@@ -150,6 +147,6 @@ If you use this work, please consider citing our paper:
   booktitle = {Jornadas de Automática},
   volume    = {47},
   year      = {2026},
-  doi       = {pending}
+  doi       = {10.17979/ja-cea.2026.47.13822}
 }
 ```
